@@ -1,7 +1,28 @@
 {
   "name": "react-single-page-resume",
-  "version": "0.1.1",
-  "private": true,
+  "version": "0.1.2",
+  "homepage": "https://bkhyat.github.io",
+  "bugs": {
+    "email": "sbkhyat@gmail.com",
+    "url": "https://github.com/bkhyat/React-Single-Page-Resume"
+  },
+  "keywords": [
+    "Single Page Resume",
+    "React Single Page Resume",
+    "Resume",
+    "Create Single Page Resume"
+  ],
+  "author": {
+    "email": "sbkhyat@gmail.com",
+    "name": "Er. Bikhyat Adhikari",
+    "url": "https://www.linkedin.com/in/bkhyat/"
+  },
+  "repository": {
+    "url": "https://github.com/bkhyat/React-Single-Page-Resume",
+    "type": "git"
+  },
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@testing-library/jest-dom": "^5.16.5",

@@ -8,7 +8,7 @@ import {
   MailOutlined,
   PhoneOutlined,
 } from "@ant-design/icons";
-import { StackoverflowIcon } from "./assets/icons";
+// import { StackoverflowIcon } from "./icons";
 import { iconTextInterface, sectionHeaderInterface } from "./types";
 
 const contactIcons: { [index: string]: React.FC } = {
@@ -16,7 +16,7 @@ const contactIcons: { [index: string]: React.FC } = {
   email: MailOutlined,
   linkedin: LinkedinOutlined,
   github: GithubOutlined,
-  stackoverflow: StackoverflowIcon,
+  // stackoverflow: StackoverflowIcon,
   website: GlobalOutlined,
   link: LinkOutlined,
 };

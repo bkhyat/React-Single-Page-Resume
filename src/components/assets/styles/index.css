@@ -1,0 +1,77 @@
+@import "antd/dist/antd.min.css";
+
+.resume-wrapper {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.resume-card {
+    margin: 15px 5px 1px 1px;
+    border: 1px solid rgb(240, 240, 240);
+}
+
+.ant-divider-inner-text {
+    text-transform: uppercase;
+    color: #03a693;
+    font-family: Monospaced, "Courier New", "Lucida Console", serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.ant-divider-horizontal.ant-divider-with-text {
+    margin: 4px 0 4px 0;
+}
+
+.ant-tag {
+    margin: 0;
+    padding: 2px 4px;
+}
+
+ul {
+    margin: 0;
+}
+
+.ant-card-grid {
+    box-shadow: none;
+}
+
+.ant-card-body {
+    padding: 12px;
+}
+
+.ant-card-small > .ant-card-head {
+    padding: 0 6px;
+}
+
+.ant-card-small > .ant-card-body {
+    padding: 0;
+}
+
+.ant-card-small > .ant-card-head > .ant-card-head-wrapper > .ant-card-head-title {
+    padding: 0;
+}
+
+.ant-card-small > .ant-card-head > .ant-card-head-wrapper > .ant-card-extra {
+    padding: 0;
+}
+
+.contacts {
+    text-align: right;
+    gap: 0;
+}
+
+@media print {
+    @page {
+        size: A4;
+        margin: 1mm;
+    }
+
+    .relevant-skills {
+        display: none;
+    }
+}

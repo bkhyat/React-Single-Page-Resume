@@ -9,6 +9,8 @@ The data that the Resume component shows can directly be passed as a JSON, and i
 
 The resume layout is currently opinionated, and is purely based on my own design decision and preferences.
 
+Npm url: https://www.npmjs.com/package/react-single-page-resume
+
 You can use `npm install react-single-page-resume` to install the library from npm
 
 You can also use `yarn add react-single-page-resume`
